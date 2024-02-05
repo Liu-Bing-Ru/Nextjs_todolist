@@ -11,7 +11,7 @@ const topicSchema = new Schema(
     },
     description: { type: String },
     //description: { String },
-    //done: { type: Boolean, default: false },
+    done: { type: Boolean, default: false },
   },
   {
     timestamps: true,
